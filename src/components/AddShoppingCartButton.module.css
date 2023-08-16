@@ -1,0 +1,13 @@
+.clickable{
+    cursor: pointer;
+    color: white;
+}
+
+.btnAdicionar{
+    cursor: pointer;
+    border: 1px solid black;
+}
+
+.cartIcon{
+    color: white;
+}

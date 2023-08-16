@@ -1,0 +1,29 @@
+.container{
+    background-color: rgb(60, 60, 60);
+    background-color: rgba(60, 60, 60, 0.9);
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    border-radius: 15px;
+    border: 2px black solid;
+    padding: 10px;
+    width: 500px;
+}
+
+.url{
+    cursor: pointer;
+    color: #d0adf0;
+}
+
+.errorMessage{
+    color: red;
+}
+
+.rememberMeLabel{
+    color: white;
+}
+
+.rememberMeCheckBox{
+    color: white;
+}

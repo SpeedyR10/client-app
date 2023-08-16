@@ -1,0 +1,100 @@
+.container {
+    background-color: rgb(60, 60, 60);
+    background-color: rgba(60, 60, 60, 0.8);
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    border-radius: 10px;
+    border: 2px black solid;
+    padding: 10px;
+    width: auto;
+}
+
+.container th{
+    border-bottom: 3px black solid;
+    color: white;
+}
+
+.container tbody tr{
+    border-bottom: 2px black solid;
+}
+
+.container tbody tr:last-child{
+    border-bottom: 3px black solid;
+}
+
+.itemContainer{
+    display: flex;
+    align-items: center;
+}
+
+.itemName{
+    color: #fff;
+    font-size: 15px;
+    margin-left: 20px;
+}
+
+.itemDivider{
+    color: black
+
+}
+
+.itemImage{
+    width: 100px;
+    border-radius: 5px;
+    float: left;
+    border: 1px solid black
+}
+
+.btnSeguinte{
+    cursor: pointer;
+    /* border: 1px solid black; */
+}
+
+.labelSeguinte{
+    cursor: pointer;
+    color: white;
+}
+
+.itemQuantity{
+    display: inline-flex;
+}
+
+.empty{
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
+
+.emptyLabel{
+    color: white;
+}
+
+.addProductsLink{
+    color: #d0adf0;
+}
+
+.pricePerUnit{
+    color: white;
+}
+
+.price{
+    color: white;
+}
+
+.subTotalLabel{
+    color: white;
+}
+
+.subTotal{
+    color: white;
+}
+
+.totalLabel{
+    color: white;
+}
+
+.total{
+    color: white;
+}

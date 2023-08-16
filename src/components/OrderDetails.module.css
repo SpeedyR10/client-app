@@ -1,0 +1,12 @@
+.container{
+    background-color: rgb(60, 60, 60);
+    background-color: rgba(60, 60, 60, 0.9);
+    border-radius: 15px;
+    border: 2px black solid;
+    padding: 70px;
+}
+
+.addressContainer{
+    border: 2px solid white;
+    border-radius: 10px;
+}
