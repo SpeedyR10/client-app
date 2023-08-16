@@ -9,7 +9,6 @@ import IconButton from '@mui/material/IconButton';
 import DeleteIcon from '@mui/icons-material/Delete';
 import styles from './ShoppingCart.module.css'
 import Counter from './Counter';
-import NavigateNextRoundedIcon from '@mui/icons-material/NavigateNextRounded';
 import { userSelector, removeFromCart } from '../features/User/userSlice';
 import { useDispatch, useSelector } from 'react-redux';
 import { Link }  from 'react-router-dom';

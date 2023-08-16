@@ -8,6 +8,8 @@ import Typography from '@mui/material/Typography';
 import ShoppingCart from './ShoppingCart';
 import styles from './OrderForm.module.css'
 import OrderDetails from './OrderDetails';
+import { useSelector } from 'react-redux';
+import { userSelector } from '../features/User/userSlice';
 
 
 export default function OrderForm() {
@@ -16,6 +18,7 @@ export default function OrderForm() {
 
     const [activeStep, setActiveStep] = useState(0);
     const [completed, setCompleted] = useState({});
+    const { shoppingCart } = useSelector(userSelector);
 
     const totalSteps = () => {
         return steps.length;
@@ -111,9 +114,11 @@ export default function OrderForm() {
                             Retroceder
                         </Button>
                         <Box sx={{ flex: '1 1 auto' }} />
-                        <Button variant='contained' onClick={handleComplete} sx={{ mr: 1 }}>
-                            Seguinte
-                        </Button>
+                        {shoppingCart.length !== 0 && 
+                            <Button variant='contained' onClick={handleComplete} sx={{ mr: 1 }}>
+                                Seguinte
+                            </Button>
+                        }
                     </Box>
                 </Fragment>
                 )}
